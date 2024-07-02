@@ -144,6 +144,10 @@ nav{
     gap: 10px;
 }
 
+.footer-top > .my-container-60 > *{
+    width: calc(100% / 3);
+}
+
 .my-circle{
     flex: 0 0 auto;
     align-items: center;
