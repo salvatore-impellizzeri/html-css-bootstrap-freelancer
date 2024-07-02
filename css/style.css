@@ -84,6 +84,21 @@ nav{
 }
 
 
+
+/* 
+            ABOUT
+*/
+
+.my-smaller-line{
+    width: 50px;
+}
+
+.my-container-p{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    margin-bottom: 50px;
+}
  /* 
                     FOOTER
  */
