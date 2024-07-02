@@ -28,10 +28,18 @@
 
           <nav class="navbar">
             <div class="container-md">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <a class="navbar-brand fs-4" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler d-sm-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <div class="row d-sm-none d-md-block">
+                <div class="col d-flex gap-4 fw-semibold">
+                    <a class="p-1 rounded link-offset-2 link-underline link-underline-opacity-0 text-light fs-5" href="#portfolio">PORTFOLIO</a>
+                    <a class="p-1 rounded link-offset-2 link-underline link-underline-opacity-0 text-light fs-5" href="#about">ABOUT</a>
+                    <a class="p-1 rounded link-offset-2 link-underline link-underline-opacity-0 text-light fs-5" href="#contact">CONTACT</a>
+                </div>
+              </div>
+              </div>
               <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">START BOOTSTRAP</h5>
@@ -70,6 +78,7 @@
         </header>
 
         <!-- HEADER BOTTOM -->
+
         <div class="container-fluid my-bg-aqua">
 
           <div class="container-md py-5">
@@ -94,11 +103,12 @@
         </div>
 
         <!-- MAIN -->
+
         <main>
 
           <!-- PORTFOLIO -->
 
-          <div class="container-fluid my-container-portfolio">
+          <div class="container-fluid my-container-portfolio" id="portfolio">
             
             <div class="container-md py-5">
 
@@ -128,7 +138,7 @@
 
           <!-- ABOUT -->
 
-          <div class="container-fluid my-bg-aqua">
+          <div class="container-fluid my-bg-aqua" id="about">
 
             <div class="container-md py-5">
 
@@ -154,7 +164,7 @@
 
           <!-- CONTACT ME -->
 
-          <div class="container-md py-5 my-container-contact">
+          <div class="container-md py-5 my-container-contact" id="contact">
 
             <h2>CONTACT ME</h2>
             <div class="container-sm my-star-container">
