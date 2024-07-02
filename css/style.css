@@ -1,22 +1,72 @@
 /* 
-                    RESET 
-*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
-
-/* 
                     HEADER
  */
 
+/* 
+        HEADER TOP
+*/
 
- /* 
+nav{
+    height: 100px;
+}
+
+.navbar{
+    background-color: #2C3E50;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler{
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon{
+    color: gray;
+}
+
+/* 
+        HEADER BOTTOM
+*/
+
+.my-bg-aqua{
+    background-color: #1ABC9C;
+    padding: 40px 0;
+    text-align: center
+}
+
+.my-img-avatar{
+    width: 50%;
+}
+
+.my-h1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-star-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.my-star{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.my-divider-line{
+    height: 5px;
+    width: 80px;
+}
+
+/* 
                     MAIN
- */
+*/
 
 
  /* 
