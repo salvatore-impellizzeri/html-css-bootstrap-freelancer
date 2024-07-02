@@ -139,13 +139,8 @@ nav{
 }
 
 .icon-container{
-    width: 300px;
     justify-content: center;
     gap: 10px;
-}
-
-.footer-top > .my-container-60 > *{
-    width: calc(100% / 3);
 }
 
 .my-circle{
@@ -164,17 +159,11 @@ nav{
     background-color: #2C3E50;
 }
 
-.footer-bottom{
-    padding: 50px;
-}
-
  /* 
                     RESPONSIVE
  */
 
 @media screen and (min-width: 1020px){
-
-
 
     .my-h1,
     h2{
@@ -211,9 +200,15 @@ nav{
         font-size: 17px;
     }
 
-    .my-container-60-flex{
+    .footer-top > .my-container-60 > *{
+        width: calc(100% / 3);
+    }
+
+    .footer-top > .my-container-60-flex{
         display: flex;
         gap: 50px;
+        width: 100%;
+        align-items: center;
     }
 }
 
