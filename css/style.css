@@ -12,7 +12,6 @@ img{
         HEADER TOP
 */
 
-
 nav{
     height: 100px;
 }
@@ -78,13 +77,16 @@ nav{
             PORTFOLIO
 */
 
-.my-container-portfolio{
+.my-container-portfolio,
+.my-container-contact{
     padding: 40px 0;
     text-align: center;
 }
 
-
-
+.my-container-flex-img{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* 
             ABOUT
 */
@@ -93,17 +95,77 @@ nav{
     width: 50px;
 }
 
-.my-container-p{
+.my-container-60{
     margin: auto;
     width: 60%;
     text-align: left;
     margin-bottom: 50px;
 }
+
+/* 
+            CONTACT ME
+*/
+
+.bg-light-green{
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+
  /* 
                     FOOTER
  */
 
  /* 
-                    DEBUG
+                    RESPONSIVE
  */
 
+@media screen and (min-width: 1020px){
+
+    .my-h1,
+    h2{
+        scale: 1.8;
+    }
+
+    .my-star{
+        margin: 0 20px;
+    }
+
+    .my-img-container{
+        width: 55%;
+        margin: auto;
+    }
+
+    .my-divider-line{
+        width: 130px;
+        height: 4px;
+    }
+
+    .my-smaller-line{
+        width: 100px;
+    }
+
+    .my-container-flex-img > *{
+        width: 47%;
+    }
+
+}
+
+@media screen and (min-width: 1651px){
+
+    .my-container-flex-img > *{
+        width: 31%;
+    }
+
+    .my-star{
+        margin: 0 40px;
+    }
+
+    .my-divider-line{
+        width: 170px;
+        height: 4px;
+    }
+
+    .my-smaller-line{
+        width: 130px;
+    }
+}
